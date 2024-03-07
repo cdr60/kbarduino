@@ -6,7 +6,7 @@ Boite à clés à base d'arduino :
 - des MCP23017 en I2C (1 par bloc de 3 Clés) de 1 à 4 MCP. Adresses possibles : 0x21, 0x22, 0x23, 0x24
 - connexion : via port série
 - Ecran LCD 16x2 I2C à l'adresse 0x20
-- - Timeout : 15 secondes
+- Timeout : 15 secondes
 
 # Protocole :
 Demande de statut : 0x10 0x02 0x00
