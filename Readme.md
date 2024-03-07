@@ -1,7 +1,7 @@
 # KB Arduino
 
 Boite à clés à base d'arduino :
-- Matériels 
+- Matériel 
 - 1 Arduino
 - des MCP23017 en I2C (1 par bloc de 3 Clés) de 1 à 4 MCP. Adresses possibles : 0x21, 0x22, 0x23, 0x24
 - connexion : via port série
@@ -18,6 +18,8 @@ Réponse : le statut
 Demande de lecture des paramères : 0x10 0xFF 0x00
 Réponse : 0x10 0xFF 0xPP 0x08 0x07 0x02 0x3C, PP est la valeur de time out
 
+# Plan de connectique : 
+Utiliser le logiciel KiCad
 
 
   
