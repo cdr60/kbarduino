@@ -1,7 +1,7 @@
 # KB Arduino
 
 Boite à clés à base d'arduino :
-- Matériels :
+- Matériels 
 - 1 Arduino
 - des MCP23017 en I2C (1 par bloc de 3 Clés) de 1 à 4 MCP. Adresses possibles : 0x21, 0x22, 0x23, 0x24
 - connexion : via port série
